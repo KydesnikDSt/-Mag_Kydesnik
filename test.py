@@ -12,6 +12,7 @@ def test_check_logo(browser):
     main_page = MainPageHelper(browser)
     main_page.go_to_site()
     # Проверяю наличие логотипа на странице сайта
+    # Проверяю наличие логотипа на странице сайта
     assert main_page.check_logo()
 
 
